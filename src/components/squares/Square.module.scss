@@ -13,7 +13,11 @@
 }
 
 .slider {
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
 }
 
 .slide {
+  scroll-snap-align: center;
+  scroll-snap-stop: normal;
 }
