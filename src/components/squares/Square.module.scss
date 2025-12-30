@@ -1,6 +1,8 @@
 .square {
-  width: 500px;
+  min-width: 100px;
   height: 500px;
+  width: 90vw;
+  max-width: 500px;
   background-color: pink;
   color: red;
   border: 1px solid blue;
@@ -8,4 +10,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.slider {
+}
+
+.slide {
 }

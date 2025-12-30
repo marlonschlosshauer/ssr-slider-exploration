@@ -6,9 +6,9 @@ import styles from "./Square.module.scss";
 export const Squares: FC = () => {
   return (
     <section>
-      <Slider>
+      <Slider className={styles.slider}>
         {new Array(5).fill(1).map((_, key) => (
-          <Slide key={key}>
+          <Slide key={key} className={styles.slide}>
             <a href={`#${key}`}>
               <article className={styles.square}>{key}</article>
             </a>

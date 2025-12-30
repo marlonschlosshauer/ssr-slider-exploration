@@ -3,5 +3,12 @@
   flex-direction: row;
   flex-wrap: nowrap;
   overflow-x: scroll;
-  background-color: green;
+  background-color: darkgreen;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
