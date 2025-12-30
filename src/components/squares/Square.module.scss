@@ -12,12 +12,12 @@
   align-items: center;
 }
 
-.slider {
+.slider_ {
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
 }
 
-.slide {
+.slide_ {
   scroll-snap-align: center;
   scroll-snap-stop: normal;
 }
